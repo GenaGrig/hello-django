@@ -29,6 +29,7 @@ SECRET_KEY = 'django-insecure-#&_hcvi)nty*i&c-v0#apwsyon&%ivzx%k_)k3$1!hsy$*@&s^
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-genagrig-hellodjango-4ye1ikwmafj.ws-eu100.gitpod.io']
+ALLOWED_HOSTS = ['genagrig-hellodjango-todo-app-3623e1c1c388.herokuapp.com']
 
 
 # Application definition
