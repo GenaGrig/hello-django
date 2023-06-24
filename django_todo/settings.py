@@ -33,7 +33,7 @@ DEBUG = development
 if development:
     ALLOWED_HOSTS = ['8000-genagrig-hellodjango-4ye1ikwmafj.ws-eu100.gitpod.io']
 else:
-    ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+    ALLOWED_HOSTS = ['genagrig-hellodjango-todo-app-3623e1c1c388.herokuapp.com']
 
 
 # Application definition
