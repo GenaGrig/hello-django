@@ -15,7 +15,7 @@ import dj_database_url
 if os.path.isfile("env.py"):
     import env
     
-development = os.environ.get("DEVELOPMENT", False)
+development = os.environ.get("DEVELOPMENT", True)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,13 +25,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', '')
+SECRET_KEY = os.environ.get('SECRET_KEY', 'vg3-4(zw1)31w=d*8iw!w76-fd+4@i)0o5@0zn=rrdgy*i7uf9')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
 
 if development:
-    ALLOWED_HOSTS = ['localhost', '']
+    ALLOWED_HOSTS = ['8000-genagrig-hellodjango-4ye1ikwmafj.ws-eu100.gitpod.io']
 else:
     ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
