@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'vg3-4(zw1)31w=d*8iw!w76-fd+4@i)0o5@0z
 DEBUG = development
 
 if development:
-    ALLOWED_HOSTS = ['localhost']
+    ALLOWED_HOSTS = ['localhost', '8000-genagrig-hellodjango-4ye1ikwmafj.ws-eu100.gitpod.io']
 else:
     ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
